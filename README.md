@@ -6,15 +6,17 @@
 - Интеграция с CKEditor
 - Использование magnific-popup, slick, slick-theme, jquery-3.6.0, slick-carousel
 
-## Установка
-1. Скопируйте плагин в директорию `CKEditor/plugins`.
-
 ## Настройка
-Чтобы использовать слайдер, необходимо добавить следующие ссылки в секцию `<head>` вашей веб-страницы:
+Чтобы использовать слайдер, необходимо добавить следующие ссылки в секцию `<head>` вашей веб-страницы:<br>
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" type="text/css" /><br>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet" type="text/css" /><br>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet" type="text/css" /><br>
+
+## Установка
+1. Скопируйте плагин в директорию `CKEditor/plugins`.
+
+
 
 ## JavaScript Библиотеки
 Если JavaScript библиотеки не вставляются в `<body>`, поместите следующие скрипты:
