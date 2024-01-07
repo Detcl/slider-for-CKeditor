@@ -1,35 +1,33 @@
+# slider-for-CKeditor
 
-slider-for-CKeditor
 Это простой плагин слайдера для CKEditor, который интегрирует функциональность слайдера с использованием популярных библиотек, таких как magnific-popup, slick, slick-theme и jquery.
 
-Особенности
-Интеграция с CKEditor
-Использование magnific-popup, slick, slick-theme, jquery-3.6.0, slick-carousel
-Установка
-Скопируйте плагин в директорию CKEditor/plugins.
-Настройка
-Чтобы использовать слайдер, необходимо добавить следующие ссылки в секцию <head> вашей веб-страницы:
+## Особенности
+- Интеграция с CKEditor
+- Использование magnific-popup, slick, slick-theme, jquery-3.6.0, slick-carousel
 
-html
-Copy code
+## Установка
+1. Скопируйте плагин в директорию `CKEditor/plugins`.
+
+## Настройка
+Чтобы использовать слайдер, необходимо добавить следующие ссылки в секцию `<head>` вашей веб-страницы:
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" type="text/css" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet" type="text/css" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet" type="text/css" />
-JavaScript Библиотеки
-Если JavaScript библиотеки не вставляются в <body>, поместите следующие скрипты:
 
-html
-Copy code
+## JavaScript Библиотеки
+Если JavaScript библиотеки не вставляются в `<body>`, поместите следующие скрипты:
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-Важно: Эти скрипты должны быть определены после блока слайдера!
 
-Интеграция с CKEditor
+**Важно:** Эти скрипты должны быть определены после блока слайдера!
+
+## Интеграция с CKEditor
 Добавьте следующий код в ваш CKEditor toolbar конфигурационный скрипт:
 
-javascript
-Copy code
 <script>
 	(function(){
 		var config = {
@@ -45,4 +43,4 @@ Copy code
 		// остальная часть скрипта остается без изменений
 	})();
 </script>
-Поддержка
+
