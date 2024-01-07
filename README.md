@@ -1,20 +1,35 @@
-# slider-for-CKeditor
-простой плагин слайдера для CKEditor
-Слайдер с использованием библиотек magnific-popup, slick, slick-theme, jquery-3.6.0, slick-carouse
 
+slider-for-CKeditor
+Это простой плагин слайдера для CKEditor, который интегрирует функциональность слайдера с использованием популярных библиотек, таких как magnific-popup, slick, slick-theme и jquery.
 
-Добавить в <Head> страницы где будет слайдер(или же вообще на все) линки к 
+Особенности
+Интеграция с CKEditor
+Использование magnific-popup, slick, slick-theme, jquery-3.6.0, slick-carousel
+Установка
+Скопируйте плагин в директорию CKEditor/plugins.
+Настройка
+Чтобы использовать слайдер, необходимо добавить следующие ссылки в секцию <head> вашей веб-страницы:
+
+html
+Copy code
 <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" type="text/css" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" rel="stylesheet" type="text/css" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" rel="stylesheet" type="text/css" />
-Если JS библиотеки не вставляются  в боди нужно поместить
+JavaScript Библиотеки
+Если JavaScript библиотеки не вставляются в <body>, поместите следующие скрипты:
 
+html
+Copy code
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
- который должен быть определен после слайдера!
+Важно: Эти скрипты должны быть определены после блока слайдера!
 
-Код для тулбара(там где вызывается CKeditor)
+Интеграция с CKEditor
+Добавьте следующий код в ваш CKEditor toolbar конфигурационный скрипт:
+
+javascript
+Copy code
 <script>
 	(function(){
 		var config = {
@@ -30,4 +45,4 @@
 		// остальная часть скрипта остается без изменений
 	})();
 </script>
-
+Поддержка
