@@ -29,7 +29,7 @@ link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-the
 
 ## Интеграция с CKEditor
 Добавьте следующий код в ваш CKEditor toolbar конфигурационный скрипт:
-
+<code>
 <script><br>
 	(function(){<br>
 		var config = {<br>
@@ -45,4 +45,4 @@ link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-the
 		// остальная часть скрипта остается без изменений<br>
 	})();<br>
 </script><br>
-
+</code>
